@@ -1,9 +1,9 @@
 {
-  "name": "react-studio-example",
+  "name": "studio-stella",
   "description": "Multiple track web audio editor and player with waveform preview and annotation.",
-  "version": "0.0.0",
-  "author": "tareqfl",
-  "website": "https://tareqfl.github.io/react-studio-js-example",
+  "version": "1.0.0",
+  "author": "WooGie",
+  "website": "https://developern1.github.io/studio-stella",
   "private": true,
   "type": "module",
   "scripts": {
