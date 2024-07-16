@@ -3,7 +3,7 @@
   "description": "Multiple track web audio editor and player with waveform preview and annotation.",
   "version": "1.0.0",
   "author": "WooGie",
-  "website": "https://developern1.github.io/studio-stella",
+  "homepage": "https://developern1.github.io/studio-stella",
   "private": true,
   "type": "module",
   "scripts": {
