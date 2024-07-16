@@ -97,7 +97,7 @@ function ButtonAppBar() {
               visible={open}
             />
             <Typography color={mode === 'light' ? dark : light}>
-              React-Studio
+              &nbsp; WooGieYa
             </Typography>
           </Stack>
           <Stack
