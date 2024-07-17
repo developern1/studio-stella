@@ -139,7 +139,7 @@ function ButtonAppBar() {
             <Button onClick={showDemo}>Load Demo</Button>
           )}
           <ModeSwitch />
-          <IconButton onClick={() => window.open('https://github.com/TareqFl')}>
+          <IconButton onClick={() => window.open('https://github.com/developern1')}>
             <GitHub
               fontSize="large"
               sx={{
