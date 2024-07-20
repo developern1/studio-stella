@@ -13,7 +13,10 @@ import { dark } from './theme';
 import NavBar from './components/NavBar';
 import { useThemeSettings } from './hooks';
 import EditorButtons from './components/editorButtons/EditorButtons';
+import FooterBar from './components/FooterBar';
 // ===========================================================>
+
+// import FooterBar from './components/FooterBar';
 
 const Editor = () => {
   const {
@@ -434,7 +437,9 @@ const Editor = () => {
         </Box>
         {/* End of Editor and upload button */}
       </Box>
+
       <CustomAudioBar bottom={!allbuttons ? 0 : -100} ee={ee} />
+      <FooterBar />
     </Box>
   );
 };
