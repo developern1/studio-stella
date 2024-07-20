@@ -149,39 +149,41 @@ const EditorButtons = ({
     // },
     // "LoadFromStorage",
     // "uploadToCloudStorage",
-    {
-      name: 'addAnnotation',
-      icon: (
-        <Abc
-          onClick={() => {
-            const event = { target: { name: 'addAnnotation' } };
-            handleClick(event);
-          }}
-        />
-      ),
-    },
-    {
-      name: 'downloadAnnotation',
-      icon: (
-        <FontDownload
-          onClick={() => {
-            const event = { target: { name: 'downloadAnnotation' } };
-            handleClick(event);
-          }}
-        />
-      ),
-    },
-    {
-      name: 'clearAnnotations',
-      icon: (
-        <FontDownloadOff
-          onClick={() => {
-            const event = { target: { name: 'clearAnnotations' } };
-            handleClick(event);
-          }}
-        />
-      ),
-    },
+
+    // addAnnotation 관련 버튼 삭제
+    // {
+    //   name: 'addAnnotation',
+    //   icon: (
+    //     <Abc
+    //       onClick={() => {
+    //         const event = { target: { name: 'addAnnotation' } };
+    //         handleClick(event);
+    //       }}
+    //     />
+    //   ),
+    // },
+    // {
+    //   name: 'downloadAnnotation',
+    //   icon: (
+    //     <FontDownload
+    //       onClick={() => {
+    //         const event = { target: { name: 'downloadAnnotation' } };
+    //         handleClick(event);
+    //       }}
+    //     />
+    //   ),
+    // },
+    // {
+    //   name: 'clearAnnotations',
+    //   icon: (
+    //     <FontDownloadOff
+    //       onClick={() => {
+    //         const event = { target: { name: 'clearAnnotations' } };
+    //         handleClick(event);
+    //       }}
+    //     />
+    //   ),
+    // },
     {
       name: 'upload',
       icon: (
