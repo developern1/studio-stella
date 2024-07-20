@@ -17,7 +17,7 @@ const SETENEABLEANNOTATIONS = 'SETENEABLEANNOTATIONS';
 const ANNOTATIONS = 'ANNOTATIONS';
 const SETDIALOGBOX = 'SETDIALOGBOX';
 const initialState = {
-  podcast: 'Studio Stella', // default podcast title 수정
+  podcast: 'Stella Studio', // default podcast title 수정
   theme: {
     mode: 'dark',
     backgroundColor: dark,
