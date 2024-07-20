@@ -125,7 +125,7 @@ function ButtonAppBar() {
             </Tooltip>
           </Stack>
 
-          {loading ? (
+          {/* {loading ? (
             <ColorRing
               visible={true}
               height="80"
@@ -137,9 +137,9 @@ function ButtonAppBar() {
             />
           ) : (
             <Button onClick={showDemo}>Load Demo</Button>
-          )}
+          )} */}
           <ModeSwitch />
-          <IconButton onClick={() => window.open('https://github.com/developern1')}>
+          {/* <IconButton onClick={() => window.open('https://github.com/developern1')}>
             <GitHub
               fontSize="large"
               sx={{
@@ -147,7 +147,7 @@ function ButtonAppBar() {
                 ':hover': { scale: '1.5', transition: '.35s' },
               }}
             />
-          </IconButton>
+          </IconButton> */}
         </Toolbar>
       </AppBar>
     </Box>
