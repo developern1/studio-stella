@@ -439,7 +439,7 @@ const Editor = () => {
       </Box>
 
       <CustomAudioBar bottom={!allbuttons ? 0 : -100} ee={ee} />
-      <FooterBar />
+      {/* <FooterBar /> */}
     </Box>
   );
 };
