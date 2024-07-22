@@ -148,6 +148,9 @@ function ButtonAppBar() {
               }}
             />
           </IconButton> */}
+          <Button onClick={() => window.open('https://github.com/developern1/studio-stella/HELP/index.html')}>
+            Guide
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>
