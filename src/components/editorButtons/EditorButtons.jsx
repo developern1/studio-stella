@@ -52,34 +52,34 @@ const EditorButtons = ({
         />
       ),
     },
-    {
-      name: 'region',
-      icon: (
-        <DragIndicator
-          sx={{
-            rotate: '90deg',
-          }}
-          name={'region'}
-          onClick={() => {
-            const event = { target: { name: 'region' } };
-            handleClick(event);
-          }}
-        />
-      ),
-    },
+    // {
+    //   name: 'region',
+    //   icon: (
+    //     <DragIndicator
+    //       sx={{
+    //         rotate: '90deg',
+    //       }}
+    //       name={'region'}
+    //       onClick={() => {
+    //         const event = { target: { name: 'region' } };
+    //         handleClick(event);
+    //       }}
+    //     />
+    //   ),
+    // },
 
     // { name: 'trim', icon: '' },
-    {
-      name: 'cut',
-      icon: (
-        <ContentCut
-          onClick={() => {
-            const event = { target: { name: 'cut' } };
-            handleClick(event);
-          }}
-        />
-      ),
-    },
+    // {
+    //   name: 'cut',
+    //   icon: (
+    //     <ContentCut
+    //       onClick={() => {
+    //         const event = { target: { name: 'cut' } };
+    //         handleClick(event);
+    //       }}
+    //     />
+    //   ),
+    // },
     {
       name: 'split',
       icon: (
