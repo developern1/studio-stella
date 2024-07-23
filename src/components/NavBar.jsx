@@ -96,7 +96,7 @@ function ButtonAppBar() {
               ariaLabel="bars-loading"
               visible={open}
             />
-            <Typography color={mode === 'light' ? dark : light} fontSize={"70%"}>
+            <Typography color={mode === 'light' ? dark : light} fontSize={"80%"}>
               &nbsp; WooGieYa
             </Typography>
           </Stack>
