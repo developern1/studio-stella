@@ -149,7 +149,7 @@ function ButtonAppBar() {
             />
           </IconButton> */}
           <Button onClick={() => window.open('https://developern1.github.io/side-project-documents/stella-studio/')} style={{fontSize:'70%'}}>
-            ? 
+            GUIDE 
           </Button>
           {/* <a href="https://developern1.github.io/help-doc/stella-studio/" target='_blank' style={{fontSize:'70%'; }}>Guide</a> */}
         </Toolbar>
