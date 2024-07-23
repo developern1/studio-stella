@@ -96,7 +96,7 @@ function ButtonAppBar() {
               ariaLabel="bars-loading"
               visible={open}
             />
-            <Typography color={mode === 'light' ? dark : light} fontSize={"80%"}>
+            <Typography color={mode === 'light' ? dark : light} fontSize={"70%"}>
               &nbsp; WooGieYa
             </Typography>
           </Stack>
@@ -148,9 +148,10 @@ function ButtonAppBar() {
               }}
             />
           </IconButton> */}
-          <Button onClick={() => window.open('https://developern1.github.io/help-doc/stella-studio/')}>
-            Guide
+          <Button onClick={() => window.open('https://developern1.github.io/side-project-documents/stella-studio/')} style={{fontSize:'70%'}}>
+            ? 
           </Button>
+          {/* <a href="https://developern1.github.io/help-doc/stella-studio/" target='_blank' style={{fontSize:'70%'; }}>Guide</a> */}
         </Toolbar>
       </AppBar>
     </Box>
