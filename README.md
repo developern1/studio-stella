@@ -1,3 +1,6 @@
+
+[![Hits](https://hits.sh/github.com/developern1/studio-stella.svg?view=today-total)](https://hits.sh/github.com/developern1/studio-stella/)
+
 # React-react-studio-js
 
 ![Screenshot](img/ref_1.png?raw=true 'stem tracks mute solo volume control')
